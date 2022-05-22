@@ -1,0 +1,188 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+/* Title Section */
+#title {
+  text-align: left;
+}
+
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+.title-box {
+  padding-bottom: 0;
+}
+
+.container-fluid {
+  padding: 5% 10% 7%;
+}
+
+p {
+  color: #8f8f8f;
+  font-weight: 400;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.row-container {
+  padding-left: 1%;
+}
+
+/* Download Buttons */
+.dowload-button {
+  margin: 10% 3% 0 1%;
+}
+
+/* Titale Image */
+.title-img {
+  width: 23%;
+  right: 22%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Features Section */
+#features {
+  line-height: 2;
+  padding: 7% 10%;
+  position: relative;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.col-features {
+  padding: 3.5%;
+}
+
+.features-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+  font-family:
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  margin: 20px;
+  width: 13%;
+  padding-bottom: 5%;
+}
+
+.testimonial-text {
+  padding: 5% 15% 0;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.press-logo {
+  margin: 25px 25px 5px;
+  width: 10%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 70px 120px 70px;
+}
+
+.pricing-column {
+  padding: 3% 1%;
+}
+
+.pricing-card {
+  margin: 0 10px;
+}
+
+.dog-h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.price-text {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+/* CTA Section */
+#cta {
+  padding: 7% 15%;
+}
+.cta-text {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Footer Section */
+#footer {
+  padding: 7% 15%;
+}
+
+.social-logos {
+  margin: 15px;
+}
+
+.logo {
+  margin: 10px;
+}
+
+@media(max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    width: 250px;
+    padding-top: 10%;
+    position: static;
+    transform: rotate(0);
+  }
+}
